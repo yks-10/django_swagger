@@ -1,0 +1,23 @@
+swagger: "2.3"
+info:
+  description: "Swagger API documentation for Todo list application"
+  version: "1.0.0"
+  title: "RAILWAY RESERVATION API Docs"
+
+host: ""
+
+tags:
+  - name: "User"
+    description: "Contains User related APIs"
+  - name: "Train_project"
+    description: "Contains TRAIN module APIs"
+
+schemes:
+  - "https"
+  - "http"
+
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: Authorization
+    in: header
